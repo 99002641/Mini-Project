@@ -2,9 +2,9 @@ name: Valgrind
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -17,7 +17,6 @@ jobs:
       run: |
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test1
-      run: make
-    - name: allout
-      run: valgrind chmod 777 ./projectf 
+    - name: make test
+      run: |
+        valgrind chmod 777 ./Cpp_MiniProject/projectf 

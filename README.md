@@ -1,6 +1,9 @@
 # Employee/intern Portfolio Generator (cpp mini-project)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6436539876384c909ca900280cb509c2)](https://www.codacy.com/gh/99002641/Mini-Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99002641/Mini-Project&amp;utm_campaign=Badge_Grade)
 ![cppcheck-action](https://github.com/99002641/Mini-Project/workflows/cppcheck-action/badge.svg?branch=master)
+|Pull Requests|Last Edit|
+|-------------|---------|
+|![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/99002641/Old_MiniProject)|![GitHub last commit](https://img.shields.io/github/last-commit/99002641/Old_MiniProject)|
 ## Integrated Tools 
 *   codacy
 

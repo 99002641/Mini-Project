@@ -13,10 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: apt install dependency
       run: |
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test
-      run: |
-        valgrind chmod 777 ./Cpp_MiniProject/projectf 
+    - name: valgrindcheck  
+      run: chmod +x all.out
+    - name: valgrindcheck1  
+      run: valgrind ./all.out
